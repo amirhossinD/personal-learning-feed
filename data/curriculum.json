@@ -1,0 +1,166 @@
+{
+  "software_engineering": {
+    "foundation": [
+      "software architecture fundamentals",
+      "modularity",
+      "coupling and cohesion",
+      "abstraction",
+      "interfaces and contracts"
+    ],
+    "deep_progression": [
+      "architectural patterns",
+      "dependency management",
+      "scalability",
+      "distributed systems",
+      "consistency and availability",
+      "caching",
+      "messaging systems",
+      "system design trade-offs"
+    ],
+    "current": [
+      "emerging software architecture practices",
+      "new engineering tools and workflows",
+      "recent developments in AI-assisted software engineering"
+    ]
+  },
+
+  "founder_management": {
+    "foundation": [
+      "leadership fundamentals",
+      "delegation",
+      "goal setting",
+      "feedback",
+      "decision making"
+    ],
+    "deep_progression": [
+      "organizational design",
+      "hiring systems",
+      "performance management",
+      "team incentives",
+      "conflict management",
+      "organizational culture",
+      "management systems"
+    ],
+    "current": [
+      "new approaches to team management",
+      "recent organizational research",
+      "modern management practices"
+    ]
+  },
+
+  "entrepreneurship_business": {
+    "foundation": [
+      "business models",
+      "value proposition",
+      "market segmentation",
+      "customer discovery",
+      "unit economics"
+    ],
+    "deep_progression": [
+      "product strategy",
+      "competitive strategy",
+      "pricing",
+      "distribution",
+      "go-to-market strategy",
+      "platform strategy",
+      "network effects",
+      "capital allocation"
+    ],
+    "current": [
+      "new startup business models",
+      "recent market trends",
+      "emerging startup strategies"
+    ]
+  },
+
+  "communication": {
+    "foundation": [
+      "clear communication",
+      "structuring ideas",
+      "active listening",
+      "explaining complex ideas",
+      "asking better questions"
+    ],
+    "deep_progression": [
+      "persuasion",
+      "negotiation",
+      "storytelling",
+      "executive communication",
+      "presentation strategy",
+      "communication under pressure"
+    ],
+    "current": [
+      "recent communication research",
+      "new findings in persuasion and decision making"
+    ]
+  },
+
+  "ai_technology": {
+    "foundation": [
+      "machine learning fundamentals",
+      "large language models",
+      "embeddings",
+      "retrieval augmented generation",
+      "AI agents"
+    ],
+    "deep_progression": [
+      "AI system architecture",
+      "agent design",
+      "evaluation",
+      "model orchestration",
+      "AI product design",
+      "AI reliability"
+    ],
+    "current": [
+      "new AI models",
+      "recent AI research",
+      "new developer AI tools",
+      "emerging AI engineering practices"
+    ]
+  },
+
+  "economics_finance": {
+    "foundation": [
+      "supply and demand",
+      "opportunity cost",
+      "marginal economics",
+      "financial statements",
+      "cash flow"
+    ],
+    "deep_progression": [
+      "market structure",
+      "pricing power",
+      "capital allocation",
+      "company valuation",
+      "risk management",
+      "macroeconomic mechanisms"
+    ],
+    "current": [
+      "recent economic developments",
+      "new financial research",
+      "current market structure changes"
+    ]
+  },
+
+  "psychology_human_behavior": {
+    "foundation": [
+      "cognitive biases",
+      "motivation",
+      "decision making",
+      "reinforcement",
+      "social influence"
+    ],
+    "deep_progression": [
+      "behavioral economics",
+      "group dynamics",
+      "organizational psychology",
+      "persuasion psychology",
+      "negotiation psychology"
+    ],
+    "current": [
+      "recent behavioral research",
+      "new findings in organizational psychology",
+      "recent decision-making research"
+    ]
+  }
+}

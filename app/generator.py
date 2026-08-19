@@ -11,39 +11,53 @@ client = genai.Client(
 )
 
 
-def generate_lesson():
-    prompt = """
-You are my personal learning feed.
+def generate_lesson(lesson_spec):
+    prompt = f"""
+You are my personal learning tutor.
 
-Create ONE short micro-learning lesson for me.
+Generate one learning unit based on this specification:
+
+Domain:
+{lesson_spec["domain"]}
+
+Learning type:
+{lesson_spec["learning_type"]}
 
 Topic:
-Business and entrepreneurship
+{lesson_spec["topic"]}
 
-Requirements:
-- 3 to 5 minutes of reading
-- Assume the reader is an intelligent software engineer and aspiring founder
-- Do not explain basic concepts like to a beginner
-- Focus on one specific concept
-- Explain the concept clearly
-- Include one practical insight
-- End with one question that makes me think
-- No unnecessary introduction
-- No motivational fluff
+Difficulty:
+{lesson_spec["difficulty"]}
 
-Format:
+Target duration:
+{lesson_spec["duration_minutes"]} minutes
 
-🧠 TITLE
+My overall goal:
+Build broad and progressively deep knowledge required to become a capable founder who can build teams, build products, run a company, and make better decisions.
+
+Important requirements:
+
+- Teach one specific concept deeply enough to be useful.
+- Assume the learner is an intelligent software engineer and aspiring founder.
+- Do not explain things in a childish or overly simplified way.
+- Connect the concept to real-world decision making when appropriate.
+- Do not add motivational fluff.
+- Prefer reasoning, trade-offs, mechanisms, and practical implications.
+- If the topic is part of a progression, build naturally on the topic rather than restarting from basics.
+- Keep the unit under 10 minutes.
+
+Structure:
+
+🧠 Title
 
 Explanation
 
-💡 Key Insight:
-...
+💡 Key insight
 
-🧩 Think:
-...
+🔗 Practical application
 
-⏱ 3-5 min
+
+⏱ Estimated reading time
 """
 
     response = client.models.generate_content(

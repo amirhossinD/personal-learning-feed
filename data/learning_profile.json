@@ -1,0 +1,68 @@
+{
+  "goal": "Build broad and progressively deep knowledge required to become a capable founder who can build teams, build products, run a company, and make better decisions.",
+
+  "learning_model": {
+    "type": "hybrid",
+    "description": "Combine structured progression within each domain with adaptive and diverse daily feed selection."
+  },
+
+  "content_types": {
+    "foundation": {
+      "description": "Essential concepts and mental models that are prerequisites for deeper learning.",
+      "weight": 0.30
+    },
+    "deep_progression": {
+      "description": "Concepts that should be learned progressively from intermediate to advanced levels.",
+      "weight": 0.50
+    },
+    "current": {
+      "description": "Recent ideas, research, technologies, practices, and developments that should be understood before deciding whether to adopt them.",
+      "weight": 0.20
+    }
+  },
+
+  "domains": {
+    "software_engineering": {
+      "priority": "highest",
+      "weight": 0.25
+    },
+
+    "founder_management": {
+      "priority": "highest",
+      "weight": 0.20
+    },
+
+    "entrepreneurship_business": {
+      "priority": "highest",
+      "weight": 0.18
+    },
+
+    "communication": {
+      "priority": "high",
+      "weight": 0.12
+    },
+
+    "ai_technology": {
+      "priority": "high",
+      "weight": 0.10
+    },
+
+    "economics_finance": {
+      "priority": "medium",
+      "weight": 0.08
+    },
+
+    "psychology_human_behavior": {
+      "priority": "medium",
+      "weight": 0.07
+    }
+  },
+
+  "constraints": {
+    "max_duration_minutes": 10,
+    "prefer_variety": true,
+    "avoid_repeated_domain_on_consecutive_days": true,
+    "allow_multi_part_topics": true,
+    "progressive_difficulty": true
+  }
+}
