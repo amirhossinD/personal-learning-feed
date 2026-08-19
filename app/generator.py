@@ -65,4 +65,9 @@ Explanation
         contents=prompt,
     )
 
-    return response.text
+    lesson = response.text
+
+    if not lesson or not lesson.strip():
+        raise ValueError("Gemini returned an empty response.")
+
+    return lesson
